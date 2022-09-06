@@ -1,6 +1,7 @@
 source htdocs index to outside - ✅
 change wallpaper - ✅
 apply wallpaper across website
+compress images - ✅
 
 update about me:
     name Mohammad Arsalan Abid
@@ -9,7 +10,7 @@ update about me:
     update Degree
     remove skype id
     add folder cv to htdocs with latest cv
-    display image
+    display image  - ✅
 
 update my resume:
     A quick summary of my education
@@ -23,13 +24,13 @@ update my resume:
 Certifications:
     Add more Certifications
 
-Personal projects**:
-    remove mtdea from projects
+Personal projects**:  - ✅
+    remove mtdea from projects   - ✅
     add books published
 
 references:
     add quotes from lor 
     add link to lor(pdf) in github
 
-Add skype and mail to quick links
+Add skype and mail to quick links - ❌
 stop page from overflowing 
