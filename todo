@@ -1,0 +1,32 @@
+source htdocs index to outside - done
+update about me:
+    name Mohammad Arsalan Abid
+    age auto update
+    remove website
+    update Degree
+    remove skype id
+    add folder cv to htdocs with latest cv
+    display image
+
+update my resume:
+    A quick summary of my education
+    add mba
+    Add majors in different line
+    add cgpa in btech and mba
+    add experience
+    remove html, css, php, wordpress, photoshop
+    add java, python, scala
+
+Certifications:
+    Add more Certifications
+
+Personal projects**
+    remove mtdea from projects
+    add books published
+
+references
+    add quotes from lor 
+    add link to lor(pdf) in github
+
+Add skype and mail to quick links
+stop page from overflowing 
