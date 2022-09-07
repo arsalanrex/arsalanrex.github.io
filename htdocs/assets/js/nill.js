@@ -13,10 +13,6 @@ $(document).ready(function () {
     typedJS();
     skills();
     countup();
-    portfolioPopup();
-    mapInit();
-    validateEmail();
-    sendEmail();
     $('.owl-item.active .hero-slide').addClass('zoom');
     
 
@@ -234,33 +230,16 @@ function countup() {
 }
 
 /*-------------------------
-     MAGNIFIC POPUP JS
--------------------------*/
-function portfolioPopup() {
+            Count up
+  -------------------------*/
+function calculateAge(birthday) { // birthday is a date
 
-    "use strict";
+    var ageDifMs = Date.now() - birthday;
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
 
-    if (('.portfolio-items').length > 0) {
-        $('.portfolio-items').each(function() {
-            $(this).magnificPopup({
-                delegate: '.js-zoom-gallery',
-                type: 'image',
-                gallery: {
-                    enabled:true
-                },
-                callbacks: {
-                    open: function() {
-                        $.fn.pagepiling.setKeyboardScrolling(false);
-                      
-                    },
-                    close: function() {
-                        $.fn.pagepiling.setKeyboardScrolling(true);
-                    }
-                  }
-            });
-        });
-    }
-}
+  }
+
 
 /*-------------------------
     Testimonial CAROUSEL JS
